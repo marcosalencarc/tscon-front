@@ -1,1 +1,1 @@
-# erasmo-documents-front
+Projeto de um sistema de gerenciamento de associações e cadastro de associados, documentos e etc.
