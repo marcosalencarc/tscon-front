@@ -1,0 +1,8 @@
+export interface DashboardAlertsResumeDTO {
+  numberAssociations: number
+  numberNewAssociationInLastWeek: number
+  numberOfAssociationWithElectionPeriodExpired: number
+  numberOfAssociationWithElectionPeriodToExpireInThisMonth: number
+  numberOfAssociationWithDigitalCertificateExpired: number
+  numberOfAssociationWithDigitalCertificateToExpireInThisMonth: number
+}

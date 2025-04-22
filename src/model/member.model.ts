@@ -1,7 +1,7 @@
 export interface Member {
-    img?: string
+    id?: string
     name: string
-    nacionality: string
+    nationality: string
     civilState: string
     address: string
     document: string

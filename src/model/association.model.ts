@@ -1,20 +1,22 @@
-import type { Member } from "./member.model"
+import type { MemberAssociation } from "./member-association.model"
 
 export interface Association {
 
-    id:number
-    img: string
+    id?:number
+    folderNumber: string,
     name: string
-    folderNumber: string
-    cnpj: string
     fantasyName: string
+    cnpj: string
     address: string
     foundationDate: Date
-    statuteChangeDate: Date
+    statuteChangeDate: Date | null
+    registerDate: Date | null
+    registerNumber?: string
     boardElectionDate: Date
-    registerNumber: string
-    registerDate: Date
-    members: Member[]
+    validateElectionYears: number
+    digitalCertificateCreated: Date | null
+    digitalCertificateValidate: Date | null
+    members: MemberAssociation[]
     status: boolean,
     createdAt: Date
 
